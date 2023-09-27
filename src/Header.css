@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+}
+
+.tabs{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.tabs > a{
+    text-align: center;
+    width: 150px;
+}

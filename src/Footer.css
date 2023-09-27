@@ -1,0 +1,41 @@
+ul, li{
+  padding-left: 0;
+  list-style: none;
+}
+
+.row{
+  display: flex;
+}
+
+.col{
+  width: 300px;
+  min-width: 200px;
+}
+
+.row-0{
+  flex-wrap: wrap;
+}
+
+.row-1{
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.brand-logo{
+  display: flex;
+  align-items: center;
+}
+
+.footer-app-links{
+  display: flex;
+  height: 80px;
+}
+
+.app-store-badge{
+  margin: 12px;
+}
+
+.social-media-links{
+  display: flex;
+  align-items: center;
+}
